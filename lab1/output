@@ -1,0 +1,23 @@
+hbase(main):001:0> scan 'topten'
+ROW                                  COLUMN+CELL                                                                                              
+ \x00\x00\x076                       column=info:id, timestamp=1537187464976, value=\x00\x00\x03D                                             
+ \x00\x00\x076                       column=info:rep, timestamp=1537187464976, value=\x00\x00\x076                                            
+ \x00\x00\x07V                       column=info:id, timestamp=1537187464976, value=\x00\x00$\xCC                                             
+ \x00\x00\x07V                       column=info:rep, timestamp=1537187464976, value=\x00\x00\x07V                                            
+ \x00\x00\x08O                       column=info:id, timestamp=1537187464976, value=\x00\x00\x00l                                             
+ \x00\x00\x08O                       column=info:rep, timestamp=1537187464976, value=\x00\x00\x08O                                            
+ \x00\x00\x08S                       column=info:id, timestamp=1537187464976, value=\x00\x00\x01\xB2                                          
+ \x00\x00\x08S                       column=info:rep, timestamp=1537187464976, value=\x00\x00\x08S                                            
+ \x00\x00\x08\x83                    column=info:id, timestamp=1537187464976, value=\x00\x00\x00T                                             
+ \x00\x00\x08\x83                    column=info:rep, timestamp=1537187464976, value=\x00\x00\x08\x83                                         
+ \x00\x00\x08\xF1                    column=info:id, timestamp=1537187464976, value=\x00\x00\x02$                                             
+ \x00\x00\x08\xF1                    column=info:rep, timestamp=1537187464976, value=\x00\x00\x08\xF1                                         
+ \x00\x00\x0A\x1A                    column=info:id, timestamp=1537187464976, value=\x00\x00\x00\x15                                          
+ \x00\x00\x0A\x1A                    column=info:rep, timestamp=1537187464976, value=\x00\x00\x0A\x1A                                         
+ \x00\x00\x0B\x08                    column=info:id, timestamp=1537187464976, value=\x00\x00+Y                                                
+ \x00\x00\x0B\x08                    column=info:rep, timestamp=1537187464976, value=\x00\x00\x0B\x08                                         
+ \x00\x00\x0E6                       column=info:id, timestamp=1537187464976, value=\x00\x00\x01}                                             
+ \x00\x00\x0E6                       column=info:rep, timestamp=1537187464976, value=\x00\x00\x0E6                                            
+ \x00\x00\x11\x97                    column=info:id, timestamp=1537187464976, value=\x00\x00\x09\x94                                          
+ \x00\x00\x11\x97                    column=info:rep, timestamp=1537187464976, value=\x00\x00\x11\x97                                         
+10 row(s) in 3.7680 seconds
